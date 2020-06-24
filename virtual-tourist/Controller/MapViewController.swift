@@ -139,16 +139,7 @@ class MapViewController: UIViewController {
         mapView.addAnnotation(annotation)
     }
     
-    func showAlertDialog(title:String,message : String){
-        let dialogMessage = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
-        let ok = UIAlertAction(title: "OK", style: .default)
-        
-        dialogMessage.addAction(ok)
-        
-        self.present(dialogMessage, animated: true, completion: nil)
-        
-    }
+
 
 }
 

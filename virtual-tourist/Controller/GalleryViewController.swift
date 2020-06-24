@@ -80,6 +80,8 @@ class GalleryViewController : UIViewController {
         
         if let response = response {
             
+            totalPages = response.photos.pages
+            
             let photos : [Photo] = response.photos.photo
             
             for photo in photos {
@@ -133,18 +135,7 @@ class GalleryViewController : UIViewController {
         }
     }
     
-    
-    func showAlertDialog(title:String,message : String){
-        let dialogMessage = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
-        let ok = UIAlertAction(title: "OK", style: .default)
-        
-        dialogMessage.addAction(ok)
-        
-        self.present(dialogMessage, animated: true, completion: nil)
-        
-    }
-    
+
     func setUIEnabled(_ enabled: Bool) {
         
         DispatchQueue.main.async {

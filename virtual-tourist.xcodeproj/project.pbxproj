@@ -25,6 +25,7 @@
 		C250298C24A2EE980054CE3D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250298B24A2EE980054CE3D /* PhotoCollectionViewCell.swift */; };
 		C250298E24A378280054CE3D /* PhotoModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250298D24A378280054CE3D /* PhotoModel+Extensions.swift */; };
 		C250299024A3A97F0054CE3D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250298F24A3A97F0054CE3D /* UIColor+Extension.swift */; };
+		C25029B724A3FAB30054CE3D /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029B624A3FAB30054CE3D /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C250298B24A2EE980054CE3D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		C250298D24A378280054CE3D /* PhotoModel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoModel+Extensions.swift"; sourceTree = "<group>"; };
 		C250298F24A3A97F0054CE3D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C25029B624A3FAB30054CE3D /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C239ECE424A0C39800919A96 /* MapViewController.swift */,
 				C250298724A2D3600054CE3D /* GalleryViewController.swift */,
 				C250298924A2EE040054CE3D /* GalleryView+Extensions.swift */,
+				C25029B624A3FAB30054CE3D /* UIViewController+Extensions.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				C250299024A3A97F0054CE3D /* UIColor+Extension.swift in Sources */,
 				C239ECE524A0C39800919A96 /* MapViewController.swift in Sources */,
 				C239ECE124A0C39800919A96 /* AppDelegate.swift in Sources */,
+				C25029B724A3FAB30054CE3D /* UIViewController+Extensions.swift in Sources */,
 				C250297E24A1618A0054CE3D /* FlickerResponse.swift in Sources */,
 				C250298424A191040054CE3D /* FlickerPhotos.swift in Sources */,
 				C250297B24A14CC90054CE3D /* ApiClient.swift in Sources */,

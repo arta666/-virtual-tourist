@@ -67,8 +67,6 @@ class ApiClient {
               DispatchQueue.main.async {
                  completion(data,nil)
               }
-//              let downloadedImage = UIImage(data: data)
-              
           }
           task.resume()
       }
